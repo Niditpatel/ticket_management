@@ -5,7 +5,7 @@ import TicketListPage from './pages/TicketListPage';
 import CreateTicketPage from './pages/CreateTicketPage';
 import EditTicketPage from './pages/EditTicketPage';
 import UserManagementPage from './pages/UserManagementPage';
-import { PlusCircle, Ticket, Users } from 'lucide-react';
+import { PlusCircle, Ticket } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 function App() {
