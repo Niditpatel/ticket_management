@@ -114,6 +114,17 @@ cd client
 # Install dependencies
 npm install
 
+# Copy the .env.example file to .env.local
+# On Windows:
+copy .env.example .env.local
+
+# On Mac/Linux:
+cp .env.example .env.local
+
+# The default API URL is set to http://localhost:5000/api
+# If your backend runs on a different port, edit .env.local:
+# VITE_API_URL=http://localhost:YOUR_PORT/api
+
 # Start the development server
 npm run dev
 ```

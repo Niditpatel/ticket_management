@@ -1,4 +1,4 @@
-# Environment variables
+# Environment variables (both backend and frontend)
 .env
 .env.local
 .env.*.local
